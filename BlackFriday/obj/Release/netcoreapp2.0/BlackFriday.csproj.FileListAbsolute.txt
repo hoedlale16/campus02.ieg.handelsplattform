@@ -1,0 +1,34 @@
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.deps.json
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.runtimeconfig.json
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.runtimeconfig.dev.json
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.dll
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.pdb
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.csprojResolveAssemblyReference.cache
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.csproj.CoreCompileInputs.cache
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.AssemblyInfoInputs.cache
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.AssemblyInfo.cs
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.dll
+C:\IEG2017\Handelsplattform\SolHandelsplattform\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.pdb
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.deps.json
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.runtimeconfig.json
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.runtimeconfig.dev.json
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.dll
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.pdb
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.csprojAssemblyReference.cache
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.csproj.CoreCompileInputs.cache
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.AssemblyInfoInputs.cache
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.AssemblyInfo.cs
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.dll
+C:\Temp\IEGWS2017_18\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.pdb
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.deps.json
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.runtimeconfig.json
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.runtimeconfig.dev.json
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.dll
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\bin\Release\netcoreapp2.0\BlackFriday.pdb
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.csprojAssemblyReference.cache
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.csproj.CoreCompileInputs.cache
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.AssemblyInfoInputs.cache
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.AssemblyInfo.cs
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.dll
+C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Release\netcoreapp2.0\BlackFriday.pdb
