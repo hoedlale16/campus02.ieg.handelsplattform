@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "294b7561-f8eb-46cd-9d18-0c326ed5b9b3",
+		"name": "Handelsplattform (IEG)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Payment Methods (JSON)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:17347/api/PaymentMethodsV2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "17347",
+					"path": [
+						"api",
+						"PaymentMethodsV2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payment Methods (XML)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:17347/api/PaymentMethodsV2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "17347",
+					"path": [
+						"api",
+						"PaymentMethodsV2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payment Methods (CSV)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "text/csv"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:17347/api/PaymentMethodsV2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "17347",
+					"path": [
+						"api",
+						"PaymentMethodsV2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Spezifische Payment Method",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "text/csv",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:17347/api/PaymentMethodsV2/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "17347",
+					"path": [
+						"api",
+						"PaymentMethodsV2",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PaymentController",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "text/csv"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:17347/api/Payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "17347",
+					"path": [
+						"api",
+						"Payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payment (JSON)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"CreditcardNumber\": \"1234 5678 9012\",\n\t\"CreditcardType\": \"Master\",\n    \"Amount\": \"13.37\",\n    \"ReceiverName\": \"The rich AG\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:17347/api/Payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "17347",
+					"path": [
+						"api",
+						"Payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payment (XML)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/xml"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<CreditcardTransaction xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\n    <CreditcardNumber>1234 5678 9012</CreditcardNumber>\n    <CreditcardType>Master</CreditcardType>\n    <Amount>13.37</Amount>\n    <ReceiverName>The rich AG</ReceiverName>\n</CreditcardTransaction>"
+				},
+				"url": {
+					"raw": "http://localhost:17347/api/Payment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "17347",
+					"path": [
+						"api",
+						"Payment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
