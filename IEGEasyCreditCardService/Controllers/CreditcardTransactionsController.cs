@@ -23,7 +23,7 @@ namespace IEGEasyCreditCardService.Controllers
         [HttpGet]
         public string Get(int id)
         {
-
+            //Was soll des sein bitte? Wir wandeln a übergebene ID in an String um damit ma a GET produzieren? Des is für nix
             return "value" + id;
         }
         // POST api/values

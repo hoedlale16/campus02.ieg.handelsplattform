@@ -1,0 +1,13 @@
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\bin\Debug\netcoreapp2.0\PaymentService.deps.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\bin\Debug\netcoreapp2.0\PaymentService.runtimeconfig.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\bin\Debug\netcoreapp2.0\PaymentService.runtimeconfig.dev.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\bin\Debug\netcoreapp2.0\PaymentService.dll
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\obj\Debug\netcoreapp2.0\PaymentService.csprojAssemblyReference.cache
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\obj\Debug\netcoreapp2.0\PaymentService.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\obj\Debug\netcoreapp2.0\PaymentService.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\bin\Debug\netcoreapp2.0\PaymentService.pdb
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\obj\Debug\netcoreapp2.0\PaymentService.dll
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\PaymentService\obj\Debug\netcoreapp2.0\PaymentService.pdb

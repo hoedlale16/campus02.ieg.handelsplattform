@@ -31,3 +31,17 @@ C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\ob
 C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.AssemblyInfo.cs
 C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.dll
 C:\Temp\IEGWS2019_20\Aufgaben 15.09.2018\SolHandelsplattform V.01\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.pdb
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\bin\Debug\netcoreapp2.0\BlackFriday.deps.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\bin\Debug\netcoreapp2.0\BlackFriday.runtimeconfig.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\bin\Debug\netcoreapp2.0\BlackFriday.runtimeconfig.dev.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\bin\Debug\netcoreapp2.0\BlackFriday.dll
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\bin\Debug\netcoreapp2.0\BlackFriday.pdb
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.dll
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.pdb
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.csprojAssemblyReference.cache

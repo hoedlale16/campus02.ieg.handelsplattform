@@ -19,3 +19,17 @@ C:\Temp\IEGWS2017_18 - Copy\Aufgaben 15.09.2018\SolHandelsplattform V.01\IEGEasy
 C:\Temp\IEGWS2017_18 - Copy\Aufgaben 15.09.2018\SolHandelsplattform V.01\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\IEGEasyCreditCardService.AssemblyInfo.cs
 C:\Temp\IEGWS2017_18 - Copy\Aufgaben 15.09.2018\SolHandelsplattform V.01\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\IEGEasyCreditCardService.dll
 C:\Temp\IEGWS2017_18 - Copy\Aufgaben 15.09.2018\SolHandelsplattform V.01\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\IEGEasyCreditCardService.pdb
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\bin\Debug\netcoreapp2.0\IEGEasyCreditCardService.deps.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\bin\Debug\netcoreapp2.0\IEGEasyCreditCardService.runtimeconfig.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\bin\Debug\netcoreapp2.0\IEGEasyCreditCardService.runtimeconfig.dev.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\bin\Debug\netcoreapp2.0\IEGEasyCreditCardService.dll
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\bin\Debug\netcoreapp2.0\IEGEasyCreditCardService.pdb
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\IEGEasyCreditCardService.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\IEGEasyCreditCardService.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\IEGEasyCreditCardService.dll
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\IEGEasyCreditCardService.pdb
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\IEGEasyCreditCardService\obj\Debug\netcoreapp2.0\IEGEasyCreditCardService.csprojAssemblyReference.cache
