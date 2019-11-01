@@ -15,7 +15,7 @@ namespace BlackFriday.ServiceClients
     public class SimpleFtpProductServiceClient
     {
         private readonly HttpClient _client;
-        private ILogger<SimpleCreditCartServiceClient> _logger;
+        private ILogger<SimpleFtpProductServiceClient> _logger;
 
         private static ArrayList baseUrls = new ArrayList();
         
@@ -67,6 +67,40 @@ namespace BlackFriday.ServiceClients
 
                     string baseUrl = GetRoundRobinBaseUrl();
                     var response = await _client.GetAsync(baseUrl + "/api/ProductFtp");
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        return await response.Content.ReadAsAsync<List<string>>();
+                    }
+                }
+                catch (HttpRequestException ex)
+                {
+                    _logger.LogError("An error occurred connecting to SimpleCreditCartServiceClient");
+
+                    //Call next Service. This is probably down or has another issue (Some crazy shit is going on with this service...)
+                    //Endlos-Loop prevention is done by CircuitBreakerAsync
+                    await GetProductsFromFtp();
+                }
+            }
+
+            //Fallback return empty list
+            return new List<string>();
+        }
+
+        public async Task<List<string>> GetProductsFromDB()
+        {
+            if (!BaseUrlsAvailable())
+            {
+                _logger.LogError("No futher services available - This service is totaly broken");
+            }
+            else
+            {
+                try
+                {
+                    _client.DefaultRequestHeaders.Accept.Clear();
+
+                    string baseUrl = GetRoundRobinBaseUrl();
+                    var response = await _client.GetAsync(baseUrl + "/api/ProductDB");
 
                     if (response.IsSuccessStatusCode)
                     {

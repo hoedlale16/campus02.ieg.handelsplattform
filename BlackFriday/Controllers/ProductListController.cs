@@ -18,8 +18,9 @@ namespace BlackFriday.Controllers
         public IActionResult Get([FromServices]SimpleFtpProductServiceClient simpleFtpProductServiceClient)
         {
             List<string> products = null;
-           
-            products = simpleFtpProductServiceClient.GetProductsFromFtp().Result;
+
+            products = simpleFtpProductServiceClient.GetProductsFromDB().Result;
+            //products = simpleFtpProductServiceClient.GetProductsFromFtp().Result;
 
             if (products == null)
             {
