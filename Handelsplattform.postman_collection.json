@@ -43,7 +43,8 @@
 					{
 						"key": "Accept",
 						"value": "application/xml",
-						"type": "text"
+						"type": "text",
+						"disabled": true
 					}
 				],
 				"body": {
@@ -51,15 +52,16 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:17347/api/PaymentMethodsV2",
-					"protocol": "http",
+					"raw": "https://ieggr8easycreditcardservice.azurewebsites.net/api/AcceptedCreditCards",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"ieggr8easycreditcardservice",
+						"azurewebsites",
+						"net"
 					],
-					"port": "17347",
 					"path": [
 						"api",
-						"PaymentMethodsV2"
+						"AcceptedCreditCards"
 					]
 				}
 			},
@@ -90,6 +92,60 @@
 					"path": [
 						"api",
 						"PaymentMethodsV2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Payment Methods (Resiliance)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:55983/api/PaymentMethods",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55983",
+					"path": [
+						"api",
+						"PaymentMethods"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CashDesk (JSON) (Resiliance)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Product\": \"Se Product\",\n    \"Vendor\": \"Da Herstölla\",\n    \"CustomerCreditCardnumber\": \"1234 5678 9012\",\n    \"AmountInEuro\": \"13,37\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:55983/api/CashDesk",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55983",
+					"path": [
+						"api",
+						"CashDesk"
 					]
 				}
 			},
@@ -135,7 +191,7 @@
 					{
 						"key": "Accept",
 						"type": "text",
-						"value": "text/csv"
+						"value": "application/json"
 					}
 				],
 				"body": {
@@ -170,7 +226,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"CreditcardNumber\": \"1234 5678 9012\",\n\t\"CreditcardType\": \"Master\",\n    \"Amount\": \"13.37\",\n    \"ReceiverName\": \"The rich AG\"\n}"
+					"raw": "{\n    \"creditcardNumber\": \"1234 5678 9012\",\n    \"creditcardType\": \"Master\",\n    \"amount\": 13.37,\n    \"receiverName\": \"The rich AG\"\n}"
 				},
 				"url": {
 					"raw": "http://localhost:17347/api/Payment",
