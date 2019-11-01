@@ -61,7 +61,7 @@ namespace BlackFriday
                 ));
 
             //SimpleProductFtpProductService
-            services.AddHttpClient<SimpleFtpProductServiceClient>()
+            services.AddHttpClient<SimpleProductServiceClient>()
 
                .AddTransientHttpErrorPolicy(policyBuilder => policyBuilder.CircuitBreakerAsync(
                        handledEventsAllowedBeforeBreaking: 5,
@@ -76,12 +76,12 @@ namespace BlackFriday
                        },
                        onRetry: (outcome, timespan, retryAttempt, context) =>
                        {
-                           service.GetService<ILogger<SimpleFtpProductServiceClient>>()
+                           service.GetService<ILogger<SimpleProductServiceClient>>()
                                .LogError("Delaying for {delay}ms, then making retry {retry}.", timespan.TotalMilliseconds, retryAttempt);
 
                            if (retryAttempt == 3)
                            {
-                               service.GetService<ILogger<SimpleFtpProductServiceClient>>().LogError("Service seems to be down - try next one...");
+                               service.GetService<ILogger<SimpleProductServiceClient>>().LogError("Service seems to be down - try next one...");
                                 //This is done in SimpleCreditCartServiceClient - Catch Block
                             }
                        }

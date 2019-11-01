@@ -12,17 +12,17 @@ using System.Threading.Tasks;
 
 namespace BlackFriday.ServiceClients
 {
-    public class SimpleFtpProductServiceClient
+    public class SimpleProductServiceClient
     {
         private readonly HttpClient _client;
-        private ILogger<SimpleFtpProductServiceClient> _logger;
+        private ILogger<SimpleProductServiceClient> _logger;
 
         private static ArrayList baseUrls = new ArrayList();
         
 
         private static int currentUsedUrl = 0;
 
-        public SimpleFtpProductServiceClient(HttpClient client, ILogger<SimpleCreditCartServiceClient> logger)
+        public SimpleProductServiceClient(HttpClient client, ILogger<SimpleProductServiceClient> logger)
         {
             _client = client;
             _logger = logger;

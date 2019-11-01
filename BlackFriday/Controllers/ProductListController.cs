@@ -15,12 +15,12 @@ namespace BlackFriday.Controllers
     {
         // GET: http://iegblackfriday.azurewebsites.net/api/productlist
         [HttpGet]
-        public IActionResult Get([FromServices]SimpleFtpProductServiceClient simpleFtpProductServiceClient)
+        public IActionResult Get([FromServices]SimpleProductServiceClient simpleProductServiceClient)
         {
             List<string> products = null;
 
-            products = simpleFtpProductServiceClient.GetProductsFromDB().Result;
-            //products = simpleFtpProductServiceClient.GetProductsFromFtp().Result;
+            products = simpleProductServiceClient.GetProductsFromDB().Result;
+            //products = simpleProductServiceClient.GetProductsFromFtp().Result;
 
             if (products == null)
             {
