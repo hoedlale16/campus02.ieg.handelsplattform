@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using BlackFriday.Models;
 using System.Net.Http.Headers;
 using System.Net.Http;
+using BlackFriday.ServiceClients;
 
 namespace BlackFriday.Controllers
 {
@@ -17,7 +18,7 @@ namespace BlackFriday.Controllers
     {
 
         private readonly ILogger<CashDeskController> _logger;
-        private static readonly string creditcardServiceBaseAddress="http://iegeasycreditcardservice.azurewebsites.net/";
+        //private static readonly string creditcardServiceBaseAddress="http://iegeasycreditcardservice.azurewebsites.net/";
 
         public CashDeskController(ILogger<CashDeskController> logger)
         {
@@ -31,7 +32,7 @@ namespace BlackFriday.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody]Basket basket)
+        public IActionResult Post([FromBody]Basket basket, [FromServices]SimpleCreditCartServiceClient creditcartServiceClient)
         {
            _logger.LogError("TransactionInfo Creditcard: {0} Product:{1} Amount: {2}", new object[] { basket.CustomerCreditCardnumber, basket.Product, basket.AmountInEuro});
 
@@ -43,15 +44,26 @@ namespace BlackFriday.Controllers
                 ReceiverName = basket.Vendor
             };
 
+            //Use the new awesome HttpClient with Resiliance and Failure Handling.
+            bool result = creditcartServiceClient.PostCreditcartTransaction(creditCardTransaction).Result;
+
+            if (result == true) {
+                return CreatedAtAction("Get", new { id = Guid.NewGuid() }, creditCardTransaction);
+            } 
+            
+            //Fallback
+            return BadRequest();
+
+            /*
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(creditcardServiceBaseAddress);
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             HttpResponseMessage response =  client.PostAsJsonAsync(creditcardServiceBaseAddress + "/api/CreditcardTransactions", creditCardTransaction).Result;
             response.EnsureSuccessStatusCode();
-           
-            
+
             return CreatedAtAction("Get", new { id = System.Guid.NewGuid() }, creditCardTransaction);
+            */
         }
     }
 }

@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BlackFriday.ServiceClients;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Polly;
+using Polly.Extensions.Http;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace BlackFriday
@@ -25,6 +28,37 @@ namespace BlackFriday
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            //Add Polly-Extenions for Resilience Handling
+            // Retry per Srevice: 3 times
+            // CircuitBreaker: Handling for temporary errors
+            //Logging: https://github.com/App-vNext/Polly/wiki/Polly-and-HttpClientFactory#configuring-policies-to-use-services-registered-with-di-such-as-iloggert
+
+            services.AddHttpClient<SimpleCreditCartServiceClient>()
+
+                .AddTransientHttpErrorPolicy(policyBuilder => policyBuilder.CircuitBreakerAsync(
+                        handledEventsAllowedBeforeBreaking: 5,
+                        durationOfBreak: TimeSpan.FromMinutes(1)
+                ))
+                .AddPolicyHandler((service, request) => HttpPolicyExtensions.HandleTransientHttpError()
+                    .WaitAndRetryAsync(new[]
+                        {
+                            TimeSpan.FromSeconds(1),
+                            TimeSpan.FromSeconds(1),
+                            TimeSpan.FromSeconds(1)
+                        },
+                        onRetry: (outcome, timespan, retryAttempt, context) =>
+                        {
+                            service.GetService<ILogger<SimpleCreditCartServiceClient>>()
+                                .LogError("Delaying for {delay}ms, then making retry {retry}.", timespan.TotalMilliseconds, retryAttempt);
+
+                            if(retryAttempt == 3)
+                            {
+                                service.GetService<ILogger<SimpleCreditCartServiceClient>>().LogError("Service seems to be down - try next one...");
+                                //This is done in SimpleCreditCartServiceClient - Catch Block
+                            }
+                        }
+                ));
 
 
             services.AddSwaggerGen(c =>

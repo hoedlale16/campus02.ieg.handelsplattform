@@ -44,3 +44,4 @@ C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschä
 C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.dll
 C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.pdb
 C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\BlackFriday\obj\Debug\netcoreapp2.0\BlackFriday.csprojAssemblyReference.cache

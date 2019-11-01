@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using BlackFriday.ServiceClients;
 
 namespace BlackFriday.Controllers
 {
@@ -16,34 +17,26 @@ namespace BlackFriday.Controllers
     {
         //https://docs.microsoft.com/en-us/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client
         private readonly ILogger<PaymentMethodsController> _logger;
-        private static readonly string creditcardServiceBaseAddress = "http://iegeasycreditcardservice.azurewebsites.net/";
 
+        //private static readonly string creditcardServiceBaseAddress = "http://iegeasycreditcardservice.azurewebsites.net/";
 
-        public PaymentMethodsController(ILogger<PaymentMethodsController> logger)
+        public PaymentMethodsController(ILogger<PaymentMethodsController> logger, [FromServices]SimpleCreditCartServiceClient creditcartServiceClient)
         {
             _logger = logger;
         }
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<string> Get([FromServices]SimpleCreditCartServiceClient creditcartServiceClient)
         {
             List<string> acceptedPaymentMethods = null;//= new string[] { "Diners", "Master" };
-            _logger.LogError("Accepted Paymentmethods");
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(creditcardServiceBaseAddress);
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            //_logger.LogError("Accepted Paymentmethods");
 
+            //Use the new awesome HttpClient with Resiliance and Failure Handling.
+            acceptedPaymentMethods = creditcartServiceClient.GetPaymentMethods().Result;
 
-
-            HttpResponseMessage response = client.GetAsync(creditcardServiceBaseAddress+ "/api/AcceptedCreditCards").Result;
-            if (response.IsSuccessStatusCode)
-            {
-                acceptedPaymentMethods = response.Content.ReadAsAsync<List<string>>().Result;
-            }
           
             foreach (var item in acceptedPaymentMethods)
             {
-                _logger.LogError("Paymentmethod {0}", new object[] { item });
+                //_logger.LogError("Paymentmethod {0}", new object[] { item });
 
             }
             return acceptedPaymentMethods;
