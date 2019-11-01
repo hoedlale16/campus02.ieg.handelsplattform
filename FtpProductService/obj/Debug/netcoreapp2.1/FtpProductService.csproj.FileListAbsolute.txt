@@ -1,0 +1,16 @@
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\bin\Debug\netcoreapp2.1\FtpProductService.deps.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\bin\Debug\netcoreapp2.1\FtpProductService.runtimeconfig.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\bin\Debug\netcoreapp2.1\FtpProductService.runtimeconfig.dev.json
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\bin\Debug\netcoreapp2.1\FtpProductService.dll
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\obj\Debug\netcoreapp2.1\FtpProductService.csprojAssemblyReference.cache
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\obj\Debug\netcoreapp2.1\FtpProductService.RazorAssemblyInfo.cache
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\obj\Debug\netcoreapp2.1\FtpProductService.RazorAssemblyInfo.cs
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\obj\Debug\netcoreapp2.1\FtpProductService.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\obj\Debug\netcoreapp2.1\FtpProductService.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\obj\Debug\netcoreapp2.1\FtpProductService.RazorTargetAssemblyInfo.cache
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\bin\Debug\netcoreapp2.1\FtpProductService.pdb
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\obj\Debug\netcoreapp2.1\FtpProductService.dll
+C:\Users\Alexander\Desktop\IWI - Sem.1\IEG - Integration elektroinischer Geschäftsprozesse\Projekte\SolHandelsplattform\FtpProductService\obj\Debug\netcoreapp2.1\FtpProductService.pdb

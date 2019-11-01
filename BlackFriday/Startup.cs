@@ -34,8 +34,8 @@ namespace BlackFriday
             // CircuitBreaker: Handling for temporary errors
             //Logging: https://github.com/App-vNext/Polly/wiki/Polly-and-HttpClientFactory#configuring-policies-to-use-services-registered-with-di-such-as-iloggert
 
+            //SimpleCreditCartServiceClient
             services.AddHttpClient<SimpleCreditCartServiceClient>()
-
                 .AddTransientHttpErrorPolicy(policyBuilder => policyBuilder.CircuitBreakerAsync(
                         handledEventsAllowedBeforeBreaking: 5,
                         durationOfBreak: TimeSpan.FromMinutes(1)
@@ -60,6 +60,32 @@ namespace BlackFriday
                         }
                 ));
 
+            //SimpleProductFtpProductService
+            services.AddHttpClient<SimpleFtpProductServiceClient>()
+
+               .AddTransientHttpErrorPolicy(policyBuilder => policyBuilder.CircuitBreakerAsync(
+                       handledEventsAllowedBeforeBreaking: 5,
+                       durationOfBreak: TimeSpan.FromMinutes(1)
+               ))
+               .AddPolicyHandler((service, request) => HttpPolicyExtensions.HandleTransientHttpError()
+                   .WaitAndRetryAsync(new[]
+                       {
+                            TimeSpan.FromSeconds(1),
+                            TimeSpan.FromSeconds(1),
+                            TimeSpan.FromSeconds(1)
+                       },
+                       onRetry: (outcome, timespan, retryAttempt, context) =>
+                       {
+                           service.GetService<ILogger<SimpleFtpProductServiceClient>>()
+                               .LogError("Delaying for {delay}ms, then making retry {retry}.", timespan.TotalMilliseconds, retryAttempt);
+
+                           if (retryAttempt == 3)
+                           {
+                               service.GetService<ILogger<SimpleFtpProductServiceClient>>().LogError("Service seems to be down - try next one...");
+                                //This is done in SimpleCreditCartServiceClient - Catch Block
+                            }
+                       }
+               ));
 
             services.AddSwaggerGen(c =>
             {

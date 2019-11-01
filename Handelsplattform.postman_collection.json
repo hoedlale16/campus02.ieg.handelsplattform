@@ -272,6 +272,30 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Products via FTP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44355/api/ProductFtp",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44355",
+					"path": [
+						"api",
+						"ProductFtp"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
